@@ -23,7 +23,7 @@ public class RadioButtonDemo extends CheckBoxDemo{
         pane.setLeft(paneForRadioButtons);
 
         // config radio buttons
-        
+
         ToggleGroup group = new ToggleGroup();
         rbRed.setToggleGroup(group);
         rbBlue.setToggleGroup(group);
